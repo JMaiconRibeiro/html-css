@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Cool', sans-serif;
+    font-weight: 100;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: 'Droid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Cool';
+    src: url('fontes/coolvetica/Coolvetica\ Rg.otf') format('opentype');
+}
+
+body{
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(to top, #217547, #3BD27F);
+    font-family: 'Cool';
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+    padding-bottom: 5px;
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding: 17px;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+header > nav > a{
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+    padding: 12px;
+}
+
+.textos{
+    text-indent: 35px;
+}
+
+.titulos{
+    font-family: 'Droid';
+    color: #1A5C38;
+}
+
+h2{
+    background-image: linear-gradient(to right, #3bd27f4f, rgba(255, 255, 255, 0.562));
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 1490px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.fotos{
+    padding-left: 345px;
+    padding-right: 345px;
+}
+
+.fotos2{
+    padding-left: 595px;
+    padding-right: 595px;
+}
+
+iframe{
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    background-color: #1A5C38;
+}
+
+span{
+    color: #1A5C38;    
+}
+
+a{
+    text-decoration: none;
+    color: #1A5C38;
+}
+
+h3{
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    margin: 18.720px 0px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.artigo{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.artigofim{
+    background-color: #C5EBD6;
+    padding: 10px 0px;
+}
+
+footer{
+    background-color: #1A5C38;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+}
