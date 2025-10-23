@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espaço</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            position: relative;
+            background-image: url('imagens/espaco.jpg');
+            background-size: cover;
+        }
+
+        div{
+            position: absolute;
+            background-image: url('imagens/astronauta.png');
+            background-repeat: no-repeat;
+            width: 600px;
+            height: 600px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 35%);
+        }
+    </style>
 </head>
 <body>
-    <img src="imagens/astronauta.png" alt="Astronauta" class="astronauta">
+    <div></div>
 </body>
 </html>
